@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee173a3f-ec74-48e1-89cc-f1833cda506c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flaskweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flaskweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/site.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/static/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +54,29 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="flaskblog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.run (1)">
+    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flaskweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flaskweb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,7 +85,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskblog.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Kristoffer\PycharmProjects\flask-tutorial\run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -58,7 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.flaskblog" />
+        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +124,14 @@
       <option name="presentableId" value="Default" />
       <updated>1604631329317</updated>
     </task>
+    <task id="LOCAL-00001" summary="Done with tutorial part 4">
+      <created>1605348811167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605348811167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +145,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done with tutorial part 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with tutorial part 4" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="378" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604722743895">
       <screen x="0" y="0" width="1536" height="824" />
@@ -107,21 +158,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="727" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605347666672" />
-    <state width="788" height="250" key="GridCell.Tab.0.bottom" timestamp="1604725167380">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1605348809493">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="614" y="114" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605348809493" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1605360639466">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605360639466" />
     <state width="788" height="250" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604725167380" />
-    <state width="788" height="250" key="GridCell.Tab.0.center" timestamp="1604725167380">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1605360639466">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605360639466" />
     <state width="788" height="250" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604725167380" />
-    <state width="788" height="250" key="GridCell.Tab.0.left" timestamp="1604725167379">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1605360639466">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605360639466" />
     <state width="788" height="250" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604725167379" />
-    <state width="788" height="250" key="GridCell.Tab.0.right" timestamp="1604725167380">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1605360639466">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605360639466" />
     <state width="788" height="250" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604725167380" />
     <state width="788" height="250" key="GridCell.Tab.1.bottom" timestamp="1604725167380">
       <screen x="0" y="0" width="1536" height="824" />
